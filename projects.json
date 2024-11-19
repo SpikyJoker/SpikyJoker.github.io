@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Password Generator and Manager",
+        "description": "Developed a secure password manager with custom encryption algorithms and a BLE beacon for location-based two-factor authentication.",
+        "thumbnail": "assets/imgs/password-manager.jpg",
+        "link": "https://github.com/username/password-manager"
+    },
+    {
+        "title": "Network Attached Storage (NAS) System",
+        "description": "Built and configured a personal NAS, implementing data recovery techniques and gaining practical experience in network data transfer and protection.",
+        "thumbnail": "assets/",
+        "link": "https://github.com/username/nas-project"
+    },
+    {
+        "title": "Website Development for Local Business",
+        "description": "Designed and developed a website adhering to modern standards, implementing analytics and practicing client communication.",
+        "thumbnail": "assets/",
+        "link": "https://github.com/username/business-website"
+    },
+    {
+        "title": "3D Printer Repair and Enhancement",
+        "description": "Repaired a broken 3D printer and enhanced it with remote control capabilities using a Raspberry Pi.",
+        "thumbnail": "assets/",
+        "link": "https://github.com/username/3d-printer-project"
+    }
+]

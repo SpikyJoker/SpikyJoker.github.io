@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dylan T - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- https://tailwindcss.com/docs/installation/play-cdn -->
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-green-400 text-white py-6">
+        <h1 class="text-center text-3xl font-bold">Portfolio</h1>
+    </header>
+
+    <main class="container mx-auto 
+                md:py-10">
+        <section id="Hero" class="mb-6">
+            <h2 
+            class="text-2xl font-bold text-center
+                bg-gray-300 
+                md:rounded-t-2xl 
+                sm: p-4 md:p-6 lg:p-8"
+                >Who am I?</h2>
+            
+            <section id="About me" class="bg-white flex p-5">
+                <span class="md:invisible w-max">
+                    <p class="md:mt-4">
+                        I am a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I am always looking to learn new technologies and improve my skills.
+                    </p>
+                </span>
+                <span class="md:mt-4 invisible md:visible">
+                    <p 
+                        class="md:mt-4">
+                        I am a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I am always looking to learn new technologies and improve my skills.
+                    </p>
+                </span>
+                <img src="https://via.placeholder.com/600" alt="Dylan Tappenden" 
+                    class="
+                    object-cover mx-auto 
+                    md:mt-6
+                    max-w-40 sm:max-w-none
+                    max-h-40 sm:max-h-none">
+            </section>
+        </section>
+        <div 
+            id="projects" 
+            class="grid m-4 md:m-0
+            grid-cols-1 sm:grid-cols-1 lg:grid-cols-2
+            gap-6
+            ">
+        </div>
+    </main>
+    <footer class="bg-gray-800 text-white py-4 text-center">
+        <p>&copy; 2024 Dylan Tappenden</p>
+    </footer>
+</body>
+</html>

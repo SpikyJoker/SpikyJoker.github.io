@@ -8,60 +8,41 @@
     <!-- https://tailwindcss.com/docs/installation/play-cdn -->
     <script src="script.js" defer></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-green-400 text-white py-6">
-        <h1 class="text-center text-3xl font-bold">Portfolio</h1>
-    </header>
-
-    <main class="container mx-auto 
-                md:py-10">
-        <section id="Hero" class="mb-6">
-            <h2 
-            class="text-2xl font-bold text-center
-                bg-gray-300 
-                md:rounded-t-2xl 
-                sm: p-4 md:p-6 lg:p-8"
-                >Who am I?</h2>
-            
-            <section id="About me" class="bg-white flex p-5">
-                <span class="md:hidden flex w-max">
-                    <p class="md:mt-4">
-                        I am a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I am always looking to learn new technologies and improve my skills.
-                    </p>
-                </span>
-                <span class="md:mt-4 hidden md:flex">
-                    <p 
-                        class="md:mt-4">
-                        I am a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I am always looking to learn new technologies and improve my skills.
-                    </p>
-                </span>
-                <img src="https://via.placeholder.com/600" alt="Dylan Tappenden" 
-                    class="
-                    object-cover mx-auto 
-                    md:mt-6
-                    max-w-40 sm:max-w-none
-                    max-h-40 sm:max-h-none">
+<body class = "flex flex-col">
+    <main class="bg-white text-gray-800 flex w-full h-fit">
+        <nav id="sidebar" class="bg-green-600 text-green-50 h-screen w-64 p-6 sticky flex flex-col overflow-y-auto top-0">
+            <h1 class="text-center text-3xl font-bold p-6 border-b-2 border-white">Portfolio</h1>
+            <ul class="flex flex-col mt-4">
+              <li><a href="#Hero" class="block text-lg">Who am I?</a></li>
+              <li><a href="#Projects" class="block text-lg">What have I built?</a></li>
+            </ul>
+          </nav>
+          <section class="w-full flex-1 md:py-8 px-32 lg:px-48 xl:px-64 max-w-none">
+            <section id="Hero" class="mb-6 w-fit bg-green-50 rounded-2xl shadow-lg">
+                <h2 class="text-2xl font-bold text-center  text-green-800 border-b-2 border-green-600  sm:p-4 md:p-6 lg:p-8 m-2">Who am I?</h2>
+                <section id="About me" class="flex p-5 h-fit">
+                    <span class="flex w-full md:mt-4">
+                        <p class="md:hidden block ">
+                            I am a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I am always looking to learn new technologies and improve my skills.
+                        </p>
+                        <p class="hidden md:block">
+                            I am a web developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS, JavaScript, and React. I am always looking to learn new technologies and improve my skills.
+                        </p>
+                    </span>
+                    <img src="assets/imgs/4.jpg" alt="Dylan Tappenden" class="object-cover  rounded-2xl m-4 w-1/2 h-auto">
+                </section>
+            </section>
+            <section id="Projects" class="mb-6">
+                <h2 class="text-2xl font-bold text-center bg-green-50 text-green-800 border-b-2 border-green-600 md:rounded-t-2xl sm:p-4 md:p-6 lg:p-8">What have I built?</h2>
+                <div id="projects" class="grid m-4 md:m-0 p-8 bg-green-50 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6"></div>
             </section>
         </section>
-        <section id="Projects" class="mb-6">
-            <h2 
-            class="text-2xl font-bold text-center
-                bg-gray-300 
-                md:rounded-2xl rounded-lg
-                sm: p-4 md:p-6 lg:p-8
-                m-4 md:m-8"
-                >What have I built?
-            </h2>
-            <div 
-                id="projects" 
-                class="grid m-4 md:m-0
-                grid-cols-1 sm:grid-cols-1 lg:grid-cols-2
-                gap-6
-                ">
-            </div>
-        </section>
+
     </main>
-    <footer class="bg-gray-800 text-white py-4 text-center">
+    
+        
+    
+    <footer class="bg-gray-800 text-white py-4 text-center  bottom-0 w-full">   
         <p>&copy; 2024 Dylan Tappenden</p>
     </footer>
 </body>

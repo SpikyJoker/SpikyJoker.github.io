@@ -8,19 +8,19 @@
     {
         "title": "Network Attached Storage (NAS) System",
         "description": "Built and configured a personal NAS, implementing data recovery techniques and gaining practical experience in network data transfer and protection.",
-        "thumbnail": "assets/",
+        "thumbnail": "assets/imgs/NAS.jpg",
         "link": "https://github.com/username/nas-project"
     },
     {
         "title": "Website Development for Local Business",
         "description": "Designed and developed a website adhering to modern standards, implementing analytics and practicing client communication.",
-        "thumbnail": "assets/",
+        "thumbnail": "assets/imgs/Cafe-Website.jpg",
         "link": "https://github.com/username/business-website"
     },
     {
         "title": "3D Printer Repair and Enhancement",
         "description": "Repaired a broken 3D printer and enhanced it with remote control capabilities using a Raspberry Pi.",
-        "thumbnail": "assets/",
+        "thumbnail": "assets/imgs/3D-Printer.jpg",
         "link": "https://github.com/username/3d-printer-project"
     }
 ]
